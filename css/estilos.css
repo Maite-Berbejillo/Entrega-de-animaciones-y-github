@@ -152,6 +152,28 @@ img {
     padding-right: 10px;
 }
 
+/*Animación y transiciones*/
+
+a.cambiarFuente:hover,
+
+a.cambiarFuente:active {
+    font-family: monospace;
+}
+
+img {
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity
+}
+
 /*Responsive Design*/
 
 /*Desktop*/
